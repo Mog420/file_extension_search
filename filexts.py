@@ -23,11 +23,9 @@ class Filexts:
 		self.all_files = []
 		self.warning = ''
 		self.fix = '*/'
-		self.call = 0
 
-		while self.call <= search_depth:
+		for i in range(search_depth):
 			self.next_dir()
-			self.call += 1
 
 	def list(self):
 		return self.all_files
