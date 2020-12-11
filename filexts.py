@@ -1,3 +1,9 @@
+__author__ = "Musangu Mugala"
+__version__ = "1.0"
+
+
+import glob
+
 class Filexts:
 
 	'''	This class scans files of a single specific file extension or file type.
@@ -9,8 +15,6 @@ class Filexts:
 	(2)search_depth: the number of directories to scan from the "search_str", is optional and defaults to 1.
 
 	'''
-
-	import glob
 
 
 	def __init__(self, search_str, search_depth = 1):
@@ -31,7 +35,6 @@ class Filexts:
 	def next_dir(self):
 		self.search_dir = self.glob.glob(self.search_str)
 		for self.file in self.search_dir:
-
 			if self.file not in self.all_files:
 				self.all_files.append(self.file)
 			else:
