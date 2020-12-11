@@ -12,60 +12,29 @@ class Filexts:
 
 	import glob
 
-	
 
 	def __init__(self, search_str, search_depth = 1):
-
 		self.search_str = search_str
-
 		self.star = self.search_str.find('*')
-
-		
-
 		self.all_files = []
-
 		self.warning = ''
-
-		
-
 		self.fix = '*/'
-
-		
-
-		
-
 		self.call = 0
 
-		
-
 		while self.call <= search_depth:
-
 			self.next_dir()
-
 			self.call += 1
 
-		
-
 	def list(self):
-
 		return self.all_files
 
-		
-
-		
-
 	def next_dir(self):
-
 		self.search_dir = self.glob.glob(self.search_str)
-
 		for self.file in self.search_dir:
 
 			if self.file not in self.all_files:
-
 				self.all_files.append(self.file)
-
 			else:
-
 				self.warning = 'No file was found!'
 
 		self.search_str = self.search_str[:self.star] + self.fix +  self.search_str[self.star:]
