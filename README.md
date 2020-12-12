@@ -14,6 +14,6 @@ Dependency: `glob.glob(filename)`
 * **Search_depth**: is an integer describing the number of directories to search through.
 
 ## Author
-Jacob Mugala
+[Jacob Mugala](jacobmugala3@gmail.com)
 
 # Licenses
