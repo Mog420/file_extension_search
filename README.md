@@ -4,5 +4,5 @@ It searchs the file extension in a number of given given directory, with much re
 
 ## API
 filexts.Filexts(filename, search_depth)
-*Filename: is a string defining the file path.
-*Search_depth: is an integer describing the number of directories to search through.
+* Filename: is a string defining the file path.
+* Search_depth: is an integer describing the number of directories to search through.
