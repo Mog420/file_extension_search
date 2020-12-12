@@ -6,13 +6,12 @@ import glob
 
 class Filexts:
 
-	'''	This class scans files of a single specific file extension or file type.
-
+	'''	This class scans files of a single specific 
+        file extension or file type.
 	This class takes two arguements:
-
 	(1)search_str: a directory string where the search stars and 
-
-	(2)search_depth: the number of directories to scan from the "search_str", is optional and defaults to 1.
+	(2)search_depth: the number of directories to scan from the 
+        "search_str", is optional and defaults to 1.
 
 	'''
 
