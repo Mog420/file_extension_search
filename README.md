@@ -10,7 +10,7 @@ The name filexts comes from **fil**e **ext**ension **s**earching
 `filexts.Filexts(filename, search_depth)`
 
 Dependency: `glob.glob(filename)`
-* **Filename**: is a string defining the file path in wild card.
+* **Filename**: is a string defining the file path in wild card (*).
 * **Search_depth**: is an integer describing the number of directories to search through.
 
 ## Author
