@@ -6,7 +6,8 @@ import glob
 
 class Filexts:
 
-	'''	This class scans files of a single specific 
+	'''
+        This class scans files of a single specific 
         file extension or file type.
 	This class takes two arguements:
 	(1)search_str: a directory string where the search stars and 
