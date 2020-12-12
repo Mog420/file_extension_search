@@ -10,3 +10,8 @@ and return a list containing all filenames ending in that particular file extens
 Dependency: `glob.glob(filename)`
 * **Filename**: is a string defining the file path.
 * **Search_depth**: is an integer describing the number of directories to search through.
+
+## Author
+Jacob Mugala
+
+# Licenses
