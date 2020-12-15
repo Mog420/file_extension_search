@@ -22,7 +22,6 @@ class Filexts:
 		self.star = self.search_str.find('*')
 		self.all_files = []
 		self.warning = ''
-		self.fix = '*/'
 
 		for i in range(search_depth):
 			self.next_dir()
@@ -38,4 +37,5 @@ class Filexts:
 			else:
 				self.warning = 'No file was found!'
 
-		self.search_str = self.search_str[:self.star] + self.fix +  self.search_str[self.star:]
+		self.search_str = (self.search_str[:self.star + '*/'
+                                    +  self.search_str[self.star:])
