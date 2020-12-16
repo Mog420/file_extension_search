@@ -24,12 +24,12 @@ class Filexts:
 		self.warning = ''
 
 		for i in range(search_depth):
-			self.next_dir()
+			self.__next_dir()
 
 	def list(self):
 		return self.all_files
 
-	def next_dir(self):
+	def __next_dir(self):
 		self.search_dir = self.glob.glob(self.search_str)
 		for self.file in self.search_dir:
 			if self.file not in self.all_files:
