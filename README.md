@@ -4,7 +4,7 @@ Filexts is a module for working on file extension-searching.
 It searchs the file extension in a number of given directory, with much respect to android,
 and return a list containing all filenames ending in that particular file extension.
 
-The name filexts comes from **fil**e **ext**ension **s**earching
+The name filexts comes from **Fil**e **ext**ension **s**earching
 
 ## API
 `filexts.Filexts(filename, search_depth)`
